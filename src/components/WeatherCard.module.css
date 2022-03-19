@@ -1,0 +1,21 @@
+.Card {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  backdrop-filter: blur(0px);
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.18);
+  width: 300px;
+  margin: 10px auto;
+}
+
+@media screen and (min-width: 64rem) {
+  .Card {
+    display: inline-block;
+    width: 150px;
+  }
+}
+@media screen and (min-width: 90rem) {
+  .Card {
+    display: inline-block;
+    width: 180px;
+  }
+}
